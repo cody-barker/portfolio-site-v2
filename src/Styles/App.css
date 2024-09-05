@@ -1,12 +1,14 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --color-1: black;
   --color-2: white;
+  --color-3: #10a37f;
 }
 
 .app {
   height: 100svh;
+  font-family: "Raleway", sans-serif;
 }
 
 * {
@@ -25,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: black;
+  background-color: var(--color-2);
 }
 
 .nav__list {
@@ -37,9 +39,14 @@ body {
 
 .nav__link {
   text-decoration: none;
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 .nav__link:visited {
-  color: var(--color-2);
+  color: var(--color-1);
+}
+
+.nav__link:active,
+.nav__link:hover {
+  text-decoration: underline;
 }
