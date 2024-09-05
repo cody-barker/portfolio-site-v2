@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --color-1: black;
-  --color-2: white;
+  --color-1: white;
+  --color-2: black;
   --color-3: #10a37f;
 }
 
 .app {
   height: 100svh;
-  font-family: "Raleway", sans-serif;
+  padding: 1em;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
-  color: var(--color-1);
+  color: var(--color-2);
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 /* NavBar */
@@ -29,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-2);
+  background-color: var(--color-1);
 }
 
 .nav__list {
@@ -41,11 +46,11 @@ body {
 
 .nav__link {
   text-decoration: none;
-  color: var(--color-1);
+  color: var(--color-2);
 }
 
 .nav__link:visited {
-  color: var(--color-1);
+  color: var(--color-2);
 }
 
 .nav__link:active,
@@ -55,6 +60,65 @@ body {
 
 /* Header */
 
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
-  height: 95svh;
+  height: 800px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+}
+
+.header__image {
+  width: clamp(50px, 100%, 500px);
+  border-radius: 50%;
+}
+
+.header__content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header__text {
+  font-size: 2rem;
+}
+
+.header__button {
+  height: 52px;
+  min-width: 280px;
+  padding: 0.25em 1em;
+  flex-shrink: 1; /* Allows button to shrink if necessary */
+  background-color: var(--color-3);
+  color: var(--color-1);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Media Queries */
+
+@media (max-width: 1100px) {
+  .header {
+    margin-top: 5rem;
+    flex-direction: column;
+    gap: 5rem; /* Stack the image and content in a column */
+  }
+
+  .header__content {
+    gap: 5rem;
+  }
 }
