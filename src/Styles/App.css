@@ -21,20 +21,22 @@ body {
   color: var(--color-1);
 }
 
+/* NavBar */
+
 .nav {
   width: 100%;
-  min-height: 4em;
+  height: 5svh;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: var(--color-2);
 }
 
 .nav__list {
   list-style-type: none;
-  width: 50%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
 }
 
 .nav__link {
@@ -49,4 +51,10 @@ body {
 .nav__link:active,
 .nav__link:hover {
   text-decoration: underline;
+}
+
+/* Header */
+
+.header {
+  height: 95svh;
 }
