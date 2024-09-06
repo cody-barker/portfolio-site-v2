@@ -151,7 +151,8 @@ body {
   gap: 2em;
   text-align: center;
   line-height: 1.5;
-  max-width: 500px;
+  max-width: 520px;
+  padding: 0 1rem;
 }
 
 /* Tech */
