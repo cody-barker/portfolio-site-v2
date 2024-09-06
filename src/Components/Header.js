@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div className="header__container">
@@ -13,7 +15,13 @@ function Header() {
             Creative software solutions to optimize your business and enhance
             the user experience.
           </p>
-          <button className="header__button">Resume</button>
+          <a
+            href="https://drive.google.com/file/d/1-Ve7W1xTTducqajRfEBZZL0o2ZixIQ8w/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="header__button">Resume</button>
+          </a>
         </div>
       </header>
     </div>

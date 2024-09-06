@@ -52,7 +52,7 @@ body {
 
 .nav__link:active,
 .nav__link:hover {
-  text-decoration: underline;
+  font-weight: 550;
 }
 
 /* Header */
@@ -110,6 +110,11 @@ body {
   border-radius: 6px;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* Media Queries */
