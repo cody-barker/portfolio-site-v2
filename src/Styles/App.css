@@ -81,7 +81,7 @@ body {
 
 .header__image {
   width: clamp(50px, 100%, 500px);
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .header__content {

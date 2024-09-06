@@ -15,8 +15,8 @@ function NavBar() {
           </NavLink>
         </li>
         <li className="nav__item">
-          <NavLink to="#socials" className="nav__link">
-            Socials
+          <NavLink to="#contact" className="nav__link">
+            Contact
           </NavLink>
         </li>
       </ul>
