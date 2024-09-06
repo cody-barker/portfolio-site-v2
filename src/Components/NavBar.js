@@ -1,23 +1,28 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function NavBar() {
   return (
     <nav className="nav flex__row--center">
       <ul className="nav__list flex__row--center">
         <li className="nav__item">
-          <NavLink to="#about" className="nav__link">
+          <Link to="about" className="nav__link">
             About
-          </NavLink>
+          </Link>
         </li>
         <li className="nav__item">
-          <NavLink to="#projects" className="nav__link">
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="nav__link"
+          >
             Projects
-          </NavLink>
+          </Link>
         </li>
         <li className="nav__item">
-          <NavLink to="#contact" className="nav__link">
+          <Link to="contact" className="nav__link">
             Contact
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>

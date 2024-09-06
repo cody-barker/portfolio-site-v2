@@ -52,6 +52,7 @@ body {
 .nav__link:active,
 .nav__link:hover {
   font-weight: 550;
+  cursor: pointer;
 }
 
 /* Header */
