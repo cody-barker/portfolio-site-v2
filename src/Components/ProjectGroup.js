@@ -45,7 +45,12 @@ function ProjectGroup() {
 
   return (
     <div id="projects" className="project__group flex__column--center">
-      <h2 className="projects__title">Projects</h2>
+      <div className="projects__content flex__column--center">
+        <h2 className="projects__title">Projects</h2>
+        <p className="projects__subtitle">
+          Driven by simplicity and environmental awareness.
+        </p>
+      </div>
       {projectCards}
     </div>
   );

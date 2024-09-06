@@ -13,6 +13,7 @@
   padding: 0;
   margin: 0;
   font-family: var(--font-1);
+  color: var(--color-1);
   font-size: 18px;
 }
 
@@ -116,13 +117,22 @@ body {
 /* Projects */
 
 .project__group {
-  gap: 12rem;
-  padding: 10rem 0;
-  background-color: var(--color-1);
+  padding: 16rem 0;
+  background-color: var(--color-2);
+  gap: 16rem;
+}
+
+.projects__content {
+  gap: 2rem;
 }
 
 .projects__title {
   font-size: 3rem;
+}
+
+.projects__subtitle {
+  font-style: italic;
+  letter-spacing: 2px;
 }
 
 .project {
