@@ -122,6 +122,10 @@ body {
   gap: 2rem;
 }
 
+.project__title {
+  font-size: 1.5rem;
+}
+
 .project__image {
   width: clamp(280px, 100%, 700px);
 }
@@ -129,6 +133,7 @@ body {
 .project__content {
   gap: 2em;
   text-align: center;
+  line-height: 1.5;
 }
 
 /* Flex */
