@@ -44,7 +44,7 @@ function ProjectGroup() {
   });
 
   return (
-    <div className="projects__container flex__column--center">
+    <div className="project__group flex__column--center">
       <h2 className="projects__title">Projects</h2>
       {projectCards}
     </div>

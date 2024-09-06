@@ -7,18 +7,18 @@
   --font-1: "Raleway", sans-serif;
 }
 
-.app {
-  height: 100svh;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: var(--font-1);
+}
+
+.app {
+  height: 100svh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -35,8 +35,6 @@ body {
 
 .nav__list {
   list-style-type: none;
-  display: flex;
-  align-items: center;
   gap: 2em;
 }
 
@@ -57,7 +55,7 @@ body {
 /* Header */
 
 .header__container {
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 
 .header {
@@ -111,19 +109,25 @@ body {
 
 /* Projects */
 
-.projects__container {
+.project__group {
+  gap: 15rem;
 }
 
 .projects__title {
-  gap: 2rem;
+  font-size: 3rem;
 }
 
 .project {
+  gap: 2rem;
 }
 
 .project__image {
   width: clamp(280px, 100%, 700px);
-  height: auto;
+}
+
+.project__content {
+  gap: 2em;
+  text-align: center;
 }
 
 /* Flex */
