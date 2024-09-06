@@ -43,7 +43,12 @@ function ProjectGroup() {
     return <Project key={index} {...project} />;
   });
 
-  return { projectCards };
+  return (
+    <div className="projects__container">
+      <h2>Projects</h2>
+      {projectCards}
+    </div>
+  );
 }
 
 export default ProjectGroup;

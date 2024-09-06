@@ -10,6 +10,8 @@
 .app {
   height: 100svh;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -61,10 +63,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .header {
-  height: 800px;
   max-width: 1200px;
   margin-top: 5rem;
   display: flex;
@@ -115,6 +117,20 @@ body {
 .header__button:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+/* Projects */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__image {
+  width: clamp(280px, 100%, 700px);
+  height: auto;
 }
 
 /* Media Queries */

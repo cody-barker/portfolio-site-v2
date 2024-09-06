@@ -20,7 +20,7 @@ function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="header__button">Resume</button>
+            <button className="header__button">Download My Resume</button>
           </a>
         </div>
       </header>
