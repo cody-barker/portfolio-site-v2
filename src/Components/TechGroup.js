@@ -53,8 +53,10 @@ function TechGroup() {
 
   return (
     <div className="tech-group flex__column--center">
-      <h3 className="tech-group__title">Tech</h3>
-      {techComps}
+      <div className="tech-group__title-container">
+        <h3 className="tech-group__title">Tech</h3>
+      </div>
+      <div className="tech-group__component-container">{techComps}</div>
     </div>
   );
 }
