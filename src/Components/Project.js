@@ -1,6 +1,6 @@
 function Project({ title, subtitle, image, alt }) {
   return (
-    <div className="project">
+    <div className="project flex__column--center">
       <img className="project__image" src={image} alt={alt} />
       <div className="project__content">
         <h3 className="project__title">{title}</h3>
