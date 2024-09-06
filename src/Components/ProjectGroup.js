@@ -5,7 +5,7 @@ function ProjectGroup() {
     {
       title: "Ash Creek Forest Management",
       subtitle:
-        "Custom inventory management software designed to streamline record keeping and ensure secure handling of hazardous chemicals.",
+        "Custom inventory management software designed to streamline record keeping and secure handling of hazardous chemicals.",
       image: "/assets/acfm-pesticide-inventory-app-demo-preview.png",
       alt: "Preview of the Ash Creek Forest Management chemical inventory application.",
     },

@@ -4,6 +4,7 @@
   --color-1: white;
   --color-2: black;
   --color-3: #10a37f;
+  --color-4: rgb(245, 245, 247);
   --font-1: "Raleway", sans-serif;
 }
 
@@ -17,9 +18,9 @@
 
 .app {
   height: 100svh;
-  padding: 1em;
   display: flex;
   flex-direction: column;
+  background-color: var(--color-1);
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 
 .nav {
   width: 100%;
-  height: 5svh;
+  min-height: 10svh;
   background-color: var(--color-1);
 }
 
@@ -56,17 +57,19 @@ body {
 /* Header */
 
 .header__container {
-  margin-bottom: 15rem;
+  margin-bottom: 1rem;
+  background-color: var(--color-4);
+  padding: 0 0 4rem 0;
 }
 
 .header {
   max-width: 1200px;
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 5em;
+  gap: 4rem;
 }
 
 .header__title {
@@ -76,13 +79,12 @@ body {
 
 .header__image {
   width: clamp(50px, 100%, 500px);
-  /* border-radius: 50%; */
 }
 
 .header__content {
   max-width: 500px;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 4rem;
   text-align: center;
 }
 
@@ -91,7 +93,7 @@ body {
 }
 
 .header__button {
-  height: 52px;
+  height: 3em;
   min-width: 280px;
   padding: 0.25em 1em;
   flex-shrink: 1; /* Allows button to shrink if necessary */
@@ -111,7 +113,9 @@ body {
 /* Projects */
 
 .project__group {
-  gap: 15rem;
+  gap: 12rem;
+  padding: 12rem 0;
+  background-color: var(--color-4);
 }
 
 .projects__title {
