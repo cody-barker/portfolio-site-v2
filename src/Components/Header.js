@@ -2,17 +2,12 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="header__container">
-      <header id="header" className="header flex__row--center">
-        <img
-          className="header__image"
-          alt="developer headshot"
-          src="/assets/headshot-full-res.png"
-        />
+    <div className="header__container flex__row--center">
+      <header className="header flex__row--center">
         <div className="header__content flex__column--center">
           <h1 className="header__title">Cody Barker</h1>
           <p className="header__text">
-            Creative software solutions to optimize your business and enhance
+            Web Developer with creative software solutions to optimize your business and enhance
             the user experience.
           </p>
           <a
