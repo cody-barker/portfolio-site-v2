@@ -52,7 +52,7 @@ function TechGroup() {
   ));
 
   return (
-    <div className="tech-group flex__column--center">
+    <div id="tech" className="tech-group flex__column--center">
       <div className="tech-group__title-container">
         <h3 className="tech-group__title">Technology</h3>
       </div>
