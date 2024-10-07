@@ -189,7 +189,9 @@ body {
 
 /* Footer */
 
-
+.footer {
+  background-color: var(--color-2);
+}
 
 /* Flex */
 
