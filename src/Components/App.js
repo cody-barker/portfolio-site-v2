@@ -4,6 +4,7 @@ import Header from "./Header";
 import About from "./About";
 import ProjectGroup from "./ProjectGroup";
 import TechGroup from "./TechGroup";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <ProjectGroup />
       <TechGroup />
+      <Footer />
     </div>
   );
 }
