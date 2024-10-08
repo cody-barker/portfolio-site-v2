@@ -27,7 +27,7 @@ function ProjectGroup() {
       title: "Addressable LED Rock Climbing Wall",
       subtitle:
         "This WebSocket application and lighting controller empowers users to create, save, and share personalized climbing routes at a fraction of the cost of commercial alternatives.",
-      image: "/assets/led-rock-wall-app-preview.png",
+      image: "/assets/cody_rock_climbing.jpg",
       alt: "Preview of the websocket UI for controlling addressable LEDs.",
     },
     {
