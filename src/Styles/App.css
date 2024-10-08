@@ -116,6 +116,10 @@ body {
 
 /* Projects */
 
+.projects__subtitle {
+  text-align: center;
+}
+
 .project__group {
   padding: 16rem 0;
   background-color: var(--color-2);
