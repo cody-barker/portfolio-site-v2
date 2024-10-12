@@ -25,12 +25,7 @@ function NavBar() {
           </Link>
         </li>
         <li className="nav__item">
-          <Link
-            to="contact"
-            smooth={true}
-            duration={2000}
-            className="nav__link"
-          >
+          <Link to="footer" smooth={true} duration={1000} className="nav__link">
             Contact
           </Link>
         </li>
