@@ -59,7 +59,6 @@ body {
 /* Header */
 
 .header__container {
-  margin-bottom: 1rem;
   background-color: var(--color-4);
   background-image: url("/home/holodiscus/code/personal_projects/portfolio-site-v2/public/assets/forest-background.jpg");
   background-position: center;
@@ -69,7 +68,7 @@ body {
 
 .header {
   width: clamp(320px, 80%, 1200px);
-  padding: 4rem 1rem;
+  padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,9 +97,8 @@ body {
 
 .header__button {
   height: 3em;
-  min-width: 280px;
   padding: 0.25em 1em;
-  flex-shrink: 1; /* Allows button to shrink if necessary */
+  width: clamp(240px, 40vw, 300px);
   background-color: var(--color-3);
   color: var(--color-1);
   border: none;
@@ -166,7 +164,6 @@ body {
   color: var(--color-1);
   gap: 8rem;
   padding: 10rem 0;
-  margin-top: 1rem;
 }
 
 .tech-group__title {

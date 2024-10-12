@@ -14,10 +14,15 @@ function Footer() {
     },
   ];
 
-  const socialLinks = socials.map(({ name, url }) => {
+  const socialLinks = socials.map(({ name, url }, index) => {
     return (
-      <p className="footer__social">
-        <a className="footer__social-link" href={url} target="_blank" rel="noopener noreferrer">
+      <p key={index} className="footer__social">
+        <a
+          className="footer__social-link"
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {name}
         </a>
       </p>
