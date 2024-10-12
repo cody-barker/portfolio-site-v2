@@ -112,6 +112,22 @@ body {
   cursor: pointer;
 }
 
+/* About */
+
+.about-wrapper {
+  background-color: var(--color-2);
+  padding: 16rem 0;
+}
+
+.about__title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about {
+  padding: 0 1rem;
+}
+
 /* Projects */
 
 .projects__subtitle {

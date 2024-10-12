@@ -31,7 +31,7 @@ function Footer() {
 
   return (
     <div className="footer-wrapper">
-      <footer className="footer">
+      <footer id="footer" className="footer">
         <div className="footer__content">
           <h4 className="footer__heading">Contact</h4>
           <p className="footer__content-text">Cody Barker</p>

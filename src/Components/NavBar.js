@@ -1,34 +1,28 @@
 import { Link } from "react-scroll";
 
 function NavBar() {
+  const navItems = [
+    { to: "about", text: "About", duration: 500 },
+    { to: "projects", text: "Projects", duration: 500 },
+    { to: "tech", text: "Tech", duration: 1000 },
+    { to: "footer", text: "Contact", duration: 1000 },
+  ];
+
   return (
     <nav className="nav flex__row--center">
       <ul className="nav__list flex__row--center">
-        <li className="nav__item">
-          <Link to="about" smooth={true} duration={500} className="nav__link">
-            About
-          </Link>
-        </li>
-        <li className="nav__item">
-          <Link
-            to="projects"
-            smooth={true}
-            duration={500}
-            className="nav__link"
-          >
-            Projects
-          </Link>
-        </li>
-        <li className="nav__item">
-          <Link to="tech" smooth={true} duration={1000} className="nav__link">
-            Tech
-          </Link>
-        </li>
-        <li className="nav__item">
-          <Link to="footer" smooth={true} duration={1000} className="nav__link">
-            Contact
-          </Link>
-        </li>
+        {navItems.map(({ to, text, duration }, index) => (
+          <li key={index} className="nav__item">
+            <Link
+              to={to}
+              smooth={true}
+              duration={duration}
+              className="nav__link"
+            >
+              {text}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
