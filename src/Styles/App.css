@@ -193,8 +193,16 @@ body {
 
 /* Footer */
 
-.footer {
+.footer-wrapper {
   background-color: var(--color-2);
+}
+
+.footer {
+  margin: 0 auto;
+  background-color: red;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Flex */
