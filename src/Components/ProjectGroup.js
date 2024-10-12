@@ -3,6 +3,13 @@ import Project from "./Project";
 function ProjectGroup() {
   const projects = [
     {
+      title: "Addressable LED Rock Climbing Wall",
+      subtitle:
+        "This WebSocket application and lighting controller empowers users to create, save, and share personalized climbing routes at a fraction of the cost of commercial alternatives.",
+      image: "/assets/cody_rock_climbing.jpg",
+      alt: "Preview of the websocket UI for controlling addressable LEDs.",
+    },
+    {
       title: "Ash Creek Forest Management",
       subtitle:
         "Custom inventory management software designed to streamline record keeping and secure handling of hazardous chemicals.",
@@ -22,13 +29,6 @@ function ProjectGroup() {
         "An extensive native plant resource that guides project managers and home gardeners in making informed plant selections.",
       image: "/assets/portland-native-plants-preview.png",
       alt: "Preview of the native plants table in this web app.",
-    },
-    {
-      title: "Addressable LED Rock Climbing Wall",
-      subtitle:
-        "This WebSocket application and lighting controller empowers users to create, save, and share personalized climbing routes at a fraction of the cost of commercial alternatives.",
-      image: "/assets/cody_rock_climbing.jpg",
-      alt: "Preview of the websocket UI for controlling addressable LEDs.",
     },
     {
       title: "Trailscan",
