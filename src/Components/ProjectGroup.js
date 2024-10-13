@@ -48,7 +48,7 @@ function ProjectGroup() {
       <div className="projects__content flex__column--center">
         <h2 className="projects__title">Projects</h2>
         <p className="projects__subtitle">
-          Driven by simplicity and environmental awareness.
+          Driven by simplicity and attention to detail.
         </p>
       </div>
       {projectCards}

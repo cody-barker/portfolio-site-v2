@@ -141,8 +141,15 @@ body {
   max-width: 500px;
 }
 
+.about__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 .about__text {
   max-width: 500px;
+  line-height: 1.75rem;
 }
 
 /* Projects */
