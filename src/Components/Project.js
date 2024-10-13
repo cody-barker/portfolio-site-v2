@@ -9,9 +9,11 @@ function Project({ title, subtitle, image, alt, github, demo }) {
           <a href={github} target="_blank" rel="noopener noreferrer">
             <button className="project__button">GitHub</button>
           </a>
-          <a href={demo} target="_blank" rel="noopener noreferrer">
-            <button className="project__button">Demo</button>
-          </a>
+          {demo ? (
+            <a href={demo} target="_blank" rel="noopener noreferrer">
+              <button className="project__button">Demo</button>
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

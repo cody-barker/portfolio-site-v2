@@ -116,7 +116,7 @@ body {
 
 .about-wrapper {
   background-color: var(--color-2);
-  padding: 16rem 0 0 0;
+  padding: 12rem 0 0 0;
 }
 
 .about__title {
@@ -134,7 +134,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  margin-top: 16rem;
+  margin-top: 12rem;
 }
 
 .about__image {
@@ -159,9 +159,9 @@ body {
 }
 
 .project__group {
-  padding: 16rem 0;
+  padding: 12rem 0;
   background-color: var(--color-2);
-  gap: 16rem;
+  gap: 12rem;
 }
 
 .projects__content {
@@ -220,12 +220,12 @@ body {
   background-color: var(--color-2);
   color: var(--color-1);
   gap: 8rem;
-  padding: 10rem 0;
+  padding: 0 0 12rem 0;
 }
 
 .tech-group__title {
   font-size: 3rem;
-  color: var(--color-3);
+  color: var(--color-1);
 }
 
 .tech-group__component-container {
