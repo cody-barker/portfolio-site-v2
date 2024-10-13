@@ -11,12 +11,12 @@ function About() {
           />
           <div className="about__texts">
             <p className="about__text">
-              I develop web applications that automate routine tasks and drive
-              efficiency, giving users more time to focus on strategic,
-              high-level challenges. Whether it's integrating IoT devices for
-              real-time data insights or creating custom software to tackle
-              complex business problems, I'm ready to help you find the right
-              solution.
+              I'm a freelance web developer, building web applications that
+              automate routine tasks and drive efficiency, giving users more
+              time to focus on strategic, high-level challenges. Whether it's
+              integrating IoT devices for real-time data insights or creating
+              custom software to tackle complex business problems, I'm ready to
+              help you find the right solution.
             </p>
             <p className="about__text">
               I leverage a decade of experience in smart agriculture and habitat

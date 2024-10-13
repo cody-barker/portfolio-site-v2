@@ -309,3 +309,11 @@ body {
     align-items: flex-start;
   }
 }
+
+@media (max-width: 1000px) {
+  .about__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: CENTER;
+  }
+}
