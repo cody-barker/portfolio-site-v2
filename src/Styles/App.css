@@ -60,7 +60,7 @@ body {
 
 .header__container {
   background-color: var(--color-4);
-  background-image: url("/home/holodiscus/code/personal_projects/portfolio-site-v2/public/assets/forest-background.jpg");
+  background-image: url("/public/assets/forest-background.jpg");
   background-position: center;
   background-size: cover;
   padding: 8rem 0;
