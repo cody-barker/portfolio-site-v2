@@ -53,6 +53,7 @@ function ProjectGroup() {
     return <Project key={index} {...project} />;
   });
 
+
   return (
     <div id="projects" className="project__group flex__column--center">
       <div className="projects__content flex__column--center">
