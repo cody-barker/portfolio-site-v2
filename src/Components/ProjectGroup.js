@@ -42,7 +42,7 @@ function ProjectGroup() {
       title: "Trailscan",
       subtitle:
         "A web app designed for hikers to add and share their favorite trails with ease.",
-      image: "/assets/trailscan-preview-image.png",
+      image: "/assets/trailscan-preview-image.jpg",
       alt: "Preview of the Trailscan homepage.",
       github: "https://github.com/cody-barker/trailscan",
       demo: "https://github.com/cody-barker/trailscan/blob/main/public/trailscan_preview_sharex.gif",
